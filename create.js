@@ -26,14 +26,14 @@ console.log(colors.green('Let\'s create our bash script. Give me some variable v
 
 var localDb = {
     username: prompt(colors.yellow('Local DB username: ')),
-    password: prompt(colors.yellow('Local DB password: ')),
+    password: prompt.hidden(colors.yellow('Local DB password: ')),
     database: prompt(colors.yellow('Local DB database: '))
 };
 
 var remoteDb = {
     sshHostname: prompt(colors.cyan('Remote SSH hostname: ')),
     sshUsername: prompt(colors.cyan('Remote SSH username: ')),
-    sshPassword: prompt(colors.cyan('Remote SSH password: ')),
+    sshPassword: prompt.hidden(colors.cyan('Remote SSH password: ')),
     username: prompt(colors.cyan('Remote DB username: ')),
     password: prompt(colors.cyan('Remote DB password: ')),
     database: prompt(colors.cyan('Remote DB database: '))
