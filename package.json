@@ -1,0 +1,25 @@
+{
+  "name": "dbsync",
+  "version": "1.0.0",
+  "description": "Generate bash script for pulling remote DB",
+  "main": "create.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "sync-prompt": "^0.4.2",
+    "exec-sync": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePaavero/dbsync-generator.git"
+  },
+  "author": "ThePaavero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePaavero/dbsync-generator/issues"
+  },
+  "homepage": "https://github.com/ThePaavero/dbsync-generator#readme"
+}
