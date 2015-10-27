@@ -17,6 +17,10 @@ if (test === '') {
         process.exit();
     }
 }
+console.log('Note that this assumes you...');
+console.log('* are using MySQL');
+console.log('* have mysqldump installed on remote machine');
+console.log('* are on a Linux distro that uses "apt-get"');
 
 console.log(colors.green('Let\'s create our bash script. Give me some variable values...'));
 
